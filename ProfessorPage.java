@@ -1,4 +1,4 @@
-package LoginPage;
+package ProfessorPage;
 
 import javafx.application.Application;
 import javafx.stage.Stage;
@@ -8,12 +8,12 @@ import javafx.scene.layout.AnchorPane;
 
 import java.net.URL;
 
-public class LoginPage extends Application {
+public class ProfessorPage extends Application {
 
 	@Override
 	public void start(Stage primaryStage) throws Exception {
 		FXMLLoader loader = new FXMLLoader();
-		loader.setLocation(new URL("file:///C:/Users/PLDNg/eclipse-workspace/ScholarshipAppFXML/src/LoginPage.FXML"));
+		loader.setLocation(new URL("")); // Replace with professorpage fxml
 		AnchorPane ap = loader.<AnchorPane>load();
 		
 		Scene scene = new Scene(ap);
