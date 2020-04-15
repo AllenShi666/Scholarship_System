@@ -1,0 +1,4 @@
+UCID,Email,Name,Faculty,Department,nominateStudentUCID
+10000001,professor1@ucalgary.ca,professor1,Science,Computer Science,10000000
+20000002,professor2@ucalgary.ca,professor2,Engineering,Software Engineering,N/A
+30000003,professor3@ucalgary.ca,professor3,Arts,Economic,N/A

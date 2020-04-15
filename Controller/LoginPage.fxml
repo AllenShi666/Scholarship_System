@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+
+<SplitPane dividerPositions="0.1884422110552764" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" orientation="VERTICAL" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.LoginController">
+	<items>
+		<AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+			<children>
+				<Label layoutX="34.0" layoutY="28.0" text="Scholarships4U" textAlignment="CENTER" />
+			</children>
+		</AnchorPane>
+		<AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+			<children>
+				<Button layoutX="225.0" layoutY="160.0" mnemonicParsing="false" onAction="#login" text="Login" />
+				<PasswordField fx:id="passwordBox" layoutX="225.0" layoutY="126.0" onAction="#getPasswordBox" promptText="Password" />
+				<SplitMenuButton fx:id="dropDown" layoutX="292.0" layoutY="160.0" mnemonicParsing="false" onAction="#getDropDownText" text="Student">
+					<items>
+						<MenuItem fx:id="studentMenuItem" mnemonicParsing="false" onAction="#studentText" text="Student" />
+						<MenuItem fx:id="coordinatorMenuItem" mnemonicParsing="false" onAction="#coordinatorText" text="Coordinator" />
+                  <MenuItem fx:id="professorMenuItem" mnemonicParsing="false" onAction="#professorText" text="Professor" />
+					</items>
+				</SplitMenuButton>
+				<TextField fx:id="usernameBox" layoutX="225.0" layoutY="84.0" onAction="#getUsernameBox" promptText="Username" />
+			</children>
+		</AnchorPane>
+	</items>
+</SplitPane>

@@ -1,3 +1,4 @@
+package data;
 import java.util.ArrayList;
 import java.io.File;
 import java.io.BufferedReader;
@@ -67,7 +68,7 @@ public class Authenticator_demo{
 
 	}
 
-	private int Load(){
+	public int Load(){
 
 		try{
 			File logins = new File("login.txt");

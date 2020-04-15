@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.CoordinatorController">
+  <tabs>
+      <Tab onSelectionChanged="#logout" text="Home">
+         <content>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <Button layoutX="520.0" layoutY="317.0" mnemonicParsing="false" text="Logout" AnchorPane.bottomAnchor="20.0" AnchorPane.rightAnchor="20.0" />
+                  <Label layoutX="43.0" layoutY="29.0" text="Name:" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="30.0" />
+                  <Label layoutX="36.0" layoutY="65.0" text="Email:" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="60.0" />
+                  <Label layoutX="32.0" layoutY="100.0" text="Update password:" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="90.0" />
+                  <TextField layoutX="147.0" layoutY="85.0" />
+                  <Button layoutX="327.0" layoutY="85.0" mnemonicParsing="false" text="update" />
+               </children></AnchorPane>
+         </content>
+      </Tab>
+    <Tab text="Scholarships">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <VBox prefWidth="600.0" />
+                  <Button layoutX="528.0" layoutY="65.0" mnemonicParsing="false" text="view" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="70.0" />
+                  <Button layoutX="529.0" layoutY="107.0" mnemonicParsing="false" text="edit" AnchorPane.rightAnchor="32.0" AnchorPane.topAnchor="110.0" />
+                  <Button layoutX="523.0" layoutY="146.0" mnemonicParsing="false" text="delete" AnchorPane.rightAnchor="25.0" AnchorPane.topAnchor="150.0" />
+                  <RadioButton layoutX="137.0" layoutY="87.0" mnemonicParsing="false" text="Scholarship1" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="30.0" />
+                  <RadioButton layoutX="147.0" layoutY="97.0" mnemonicParsing="false" text="Scholarship2" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="60.0" />
+                  <RadioButton layoutX="157.0" layoutY="107.0" mnemonicParsing="false" text="Scholarship3" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="90.0" />
+                  <RadioButton layoutX="167.0" layoutY="117.0" mnemonicParsing="false" text="Scholarship4" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="120.0" />
+                  <RadioButton layoutX="177.0" layoutY="127.0" mnemonicParsing="false" text="Scholarship5" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="150.0" />
+                  <Button layoutX="529.0" layoutY="26.0" mnemonicParsing="false" text="Add" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="30.0" />
+               </children></AnchorPane>
+      </content>
+    </Tab>
+      <Tab text="Statistics">
+         <content>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <VBox prefWidth="600.0" />
+                  <TableView layoutX="120.0" layoutY="80.0" prefHeight="200.0" prefWidth="366.0">
+                    <columns>
+                      <TableColumn prefWidth="117.0" text="Scholarship Name" />
+                        <TableColumn prefWidth="83.0" text="Amount" />
+                        <TableColumn prefWidth="82.0" text="No. Availble" />
+                        <TableColumn prefWidth="83.0" text="No. Applied" />
+                    </columns>
+                  </TableView>
+               </children>
+            </AnchorPane>
+         </content>
+      </Tab>
+  </tabs>
+</TabPane>

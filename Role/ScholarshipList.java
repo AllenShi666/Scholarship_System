@@ -1,3 +1,4 @@
+package Role;
 import java.util.ArrayList;
 
 public class ScholarshipList {

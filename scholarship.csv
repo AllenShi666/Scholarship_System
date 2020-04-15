@@ -1,0 +1,6 @@
+ID,Name,Faculty,Department,Year,GPA,NumberAvailable,Amount,NumberApplied,WhoGot
+1,scholarship1,Science,Computer Science,4,3.8,1,1000,10,10000000
+2,scholarship2,Arts,Economic,3,3,10,500,50,N/A
+3,scholarship3,Engineering,Software Engineering,2,3.3,5,2000,20,20000000
+4,scholarship4,Science,Computer Science,4,3.9,1,5000,20,N/A
+5,scholarship5,Science,Math,2,3.5,2,1000,30,N/A

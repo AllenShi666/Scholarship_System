@@ -1,0 +1,16 @@
+student1@ucalgary.ca
+password1
+student2@ucalgary.ca
+password2
+student3@ucalgary.ca
+password3
+professor1@ucalgary.ca
+password1
+professor2@ucalgary.ca
+password2
+professor3@ucalgary.ca
+password3
+coordinator@ucalgary.ca
+pass
+
+

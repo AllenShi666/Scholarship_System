@@ -1,20 +1,22 @@
+package Controller;
+
 
 
 import javafx.application.Application;
 import javafx.stage.Stage;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
-import javafx.scene.control.SplitPane;
-import javafx.scene.layout.AnchorPane;
+import javafx.scene.control.TabPane;
+
 
 import java.net.URL;
 
-public class LoginPage extends Application {
+public class StudentPage extends Application {
 
 	@Override
-	public void start(Stage primaryStage) {
+	public void start(Stage primaryStage) throws Exception {
 		try {
-			SplitPane root = (SplitPane)FXMLLoader.load(getClass().getResource("LoginPage.fxml"));					
+			TabPane root = (TabPane)FXMLLoader.load(getClass().getResource("StudentPage.fxml"));					
 			Scene scene = new Scene(root, 600, 400);
 			primaryStage.setScene(scene);
 			primaryStage.show();

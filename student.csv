@@ -1,0 +1,4 @@
+UCID,Email,Name,Faculty,Department,Year,GPA,ScholarshipApplied,ScholarshipGot
+10000000,student1@ucalgary.ca,student1,Science,Computer Science,4,3.98,1,1
+20000000,student2@ucalgary.ca,student2,Engineering,Software Engineering,2,3.12,2 3 4,2 4
+30000000,student3@ucalgary.ca,student3,Arts,Economic,3,2.87,N/A,N/A

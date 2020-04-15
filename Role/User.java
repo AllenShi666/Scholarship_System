@@ -1,17 +1,24 @@
+package Role;
 
 public abstract class User {
 
     private String username;    //maybe email?
     private String password;
     private String name;
+    private int ucid;
 
 
-    User(String username, String password, String name) {
+    User(String username, String password) {
         this.username = username;
         this.password = password;
-        this.name = name;
     }
 
+    User(int ucid, String username, String name) {
+        this.ucid = ucid;
+    	this.username = username;
+        this.name = name;
+    }
+    
     public String getUsername() {
         return username;
     }
@@ -36,7 +43,14 @@ public abstract class User {
         this.name = name;
     }
 
+    public int getUcid() {
+        return ucid;
+    }
 
+    public void setUcid(int ucid) {
+        this.ucid = ucid;
+    }
+    
     public void login() {
         //login?
     }
